@@ -31,3 +31,5 @@ if response.status_code == 200:
         print(f"{creator}: {count} PR(s)")
 else:
     print(f"Failed to fetch data. Status code: {response.status_code}")
+
+    ####
